@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Hosting Pengumpulan Tugas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #B88B4A, #D9C4A6);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .card {
+            background: #FAF3E0;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+        }
+
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #8B5E3C;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #623A2C;
+        }
+
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Selamat Datang di Website Hosting Pengumpulan Tugas Grafika Komputer </h1>
+        <p>Selamat datang di platform Pengumpulan Tugas Grafika Komputer! 🎓📂 <br>
+        <br>
+            Website ini dibuat untuk memudahkan penulis dalam mengakses dan melihat daftar tugas yang telah di-upload. Dengan tampilan yang simpel dan modern, penulis dan audiens dapat menemukan berbagai tugas yang telah dipublikasikan, lengkap dengan nama tugas, dosen pengampu, file PDF, dan link YouTube terkait. <br>
+        <br>
+            Didesain dengan teknologi HTML, CSS, dan JavaScript, platform ini dioptimalkan agar nyaman diakses oleh audiens secara efisien dan mudah. Mari jelajahi tugas-tugas yang tersedia! 🚀📚.</p>
+    </div>
+
+    <!-- Profile Section -->
+<div class="profile-container card">
+    <div class="profile-description">
+        <h2>Shava Phiyan Anantha</h2>
+        <p>Halo! Saya adalah mahasiswa S1 Pendidikan Teknologi Informasi angkatan 2024 di Universitas Lampung. Dengan semangat belajar yang tinggi, saya terus mengembangkan kemampuan dalam bidang teknologi dan pendidikan.<br>
+            <br>
+            Saya memiliki minat besar dalam membaca, terutama buku-buku teknologi dan fiksi; memasak, mencoba resep baru untuk menciptakan hidangan lezat; serta menonton K-Drama, yang tidak hanya menghibur tetapi juga menginspirasi. 📚🍳📺<br>
+            <br>
+            Selain itu, saya dikenal sebagai seseorang yang teliti dan mampu mengetik dengan cepat, secepat kereta Woosh!! 🚄💨. Kemampuan ini membantu saya dalam menyelesaikan tugas-tugas dengan efisien dan akurat.<br>
+            <br>
+            Saya percaya bahwa ketelitian dan kecepatan adalah kombinasi yang dapat membuat hasil pekerjaan menjadi lebih maksimal! 🌟 .</p>
+    </div>
+</div>
+
+    <!-- Daftar Tugas -->
+<div class="task-list-container">
+    <h2>Daftar Tugas</h2>
+    <ul id="task-list">
+        <li class="task-item">
+            <h3>Tugas 1 - TOKOH PERINTIS GRAFIKA KOMPUTER</h3>
+            <p>Dosen:Putut Aji Nalendro, M.Pd<br>
+                Wartariyus, S.Kom., M.T.I.<br>
+                Febi Eka Febriansyah, M.T</p>
+            <p>Steve Russell adalah programmer asal Amerika yang menciptakan permainan komputer interaktif pertama, "Spacewar!", di MIT pada tahun 1962.
+
+                Meskipun sederhana, Spacewar! menjadi pionir dalam grafika komputer dan industri game karena memperkenalkan elemen visual dan interaktivitas yang menginspirasi inovasi teknologi visual hingga saat ini. 🎮💻
+                
+                .</p>
+            <a href="https://drive.google.com/file/d/1P-eeNYpAs8qxnNVvMMqv_XzrRXWZz3Qh/view?usp=sharing" class="download-link" download>Lihat PDF</a>
+            <a href="https://youtu.be/mw91pTVz5Tk?si=3nYwnn0gVbtFQZPW" class="youtube-link" target="_blank">Tonton Video</a>
+        </li>
+        <li class="task-item">
+            <h3>Tugas 2 - GARIS DDA DAN BRESENHAM PADA GARIS LURUS</h3>
+            <p>Dosen:Putut Aji Nalendro, M.Pd<br>
+                Wartariyus, S.Kom., M.T.I.<br>
+                Febi Eka Febriansyah, M.T</p></p>
+            <p>Dalam tugas ini, saya diminta untuk membuat garis lurus menggunakan algoritma DDA dan Bresenham. Kedua algoritma ini merupakan metode dasar dalam grafika komputer untuk menggambar garis dengan presisi. <br>
+                <br>
+                Algoritma DDA (Digital Differential Analyzer): Menghitung titik-titik garis menggunakan operasi pecahan, sederhana tetapi kurang efisien.<br>
+                <br>
+                Algoritma Bresenham: Menggunakan perhitungan integer yang lebih cepat dan akurat dalam menggambar garis pada layar piksel.<br>
+                <br>
+                Tugas ini bertujuan untuk memahami perbedaan efisiensi dan akurasi dari kedua algoritma dalam menggambar garis lurus. 📏✨</p>
+            <a href="https://drive.google.com/drive/u/1/folders/1YvlI9yI8ZniqwdCax79lvgo9eAM0tBUj" class="download-link" download>Buka PDF</a>
+            <a href="https://youtu.be/Z98RZ8x48xg?si=WDwiTvYC03NsmVNF" class="youtube-link" target="_blank">Tonton Video</a>
+        </li>
+        <li class="task-item">
+            <h3>Tugas 3 - ALGORITMA BRESENHAM DAN MIDPOINT PADA LINGKARAN</h3>
+            <p>Dosen:Putut Aji Nalendro, M.Pd<br>
+                Wartariyus, S.Kom., M.T.I.<br>
+                Febi Eka Febriansyah, M.T</p></p></p>
+            <p>Dalam tugas ini, saya diminta untuk membuat lingkaran menggunakan algoritma Bresenham dan Midpoint. Kedua algoritma ini digunakan dalam grafika komputer untuk menggambar lingkaran dengan efisien dan presisi.<br>
+                <br>
+                Algoritma Bresenham menggunakan perhitungan integer untuk menentukan titik-titik lingkaran tanpa operasi pembulatan yang kompleks.<br>
+                <br>
+                Algoritma Midpoint menentukan posisi titik berdasarkan perbandingan dengan titik tengah, menghasilkan lingkaran yang lebih halus.<br>
+                <br>
+                Tugas ini bertujuan untuk memahami cara kerja kedua algoritma dalam menggambar lingkaran pada sistem koordinat piksel. 🔵✨</p>
+            <a href="https://drive.google.com/drive/u/1/folders/1YvlI9yI8ZniqwdCax79lvgo9eAM0tBUj" class="download-link" download>Buka PDF</a>
+            <a href="https://youtu.be/_vl3IntoM5U?si=Bwizmz17JzVAeUdx" class="youtube-link" target="_blank">Tonton Video</a>
+        </li>
+        <li class="task-item">
+            <h3>Nama Tugas 4</h3>
+            <p>Dosen: Nama Dosen</p>
+            <p>Deskripsi singkat tugas di sini.</p>
+            <a href="file-tugas-2.pdf" class="download-link" download>Download PDF</a>
+            <a href="https://youtube.com/link-tugas-2" class="youtube-link" target="_blank">Tonton Video</a>
+        </li>
+        <!-- Tambahkan lebih banyak tugas di sini -->
+    </ul>
+</div>
+</body>
+</html>
